@@ -23,4 +23,51 @@ number2 += 1
 
 print("Ready or not, here I come")
 
+// Repaat loops --> not commonly used
+var number3 = 1
+
+repeat {
+    print(number3)
+    number3 += 1
+} while number3 <= 20
+
+print("Ready or not, here I come!!")
+
+while false {
+    print("This is false") // will not be executed
+}
+
+repeat {
+    print("This is false")
+} while false
+
+
+// Existing loops
+var countDown = 10
+
+while countDown >= 0 {
+    print(countDown)
+    
+    if countDown == 5 {
+        print("I'm bored. Let's go now!")
+        break
+    }
+    
+    countDown -= 1
+}
+print("Blast off!")
+
+//Existing multiple loops
+// if put a loop inside a loop it's called nested loop
+outerLoop: for i in 1...15 {
+    for j in 1...15 {
+        let product = i * j
+        print("\(i) * \(j) is \(product)")
+        if product == 50 {
+            print("It's a bulleye!")
+            break outerLoop
+        }
+    }
+}
+
 
