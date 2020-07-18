@@ -42,7 +42,7 @@ repeat {
 } while false
 
 
-// Existing loops
+// Exiting loops
 var countDown = 10
 
 while countDown >= 0 {
@@ -57,7 +57,7 @@ while countDown >= 0 {
 }
 print("Blast off!")
 
-//Existing multiple loops
+//Exiting multiple loops
 // if put a loop inside a loop it's called nested loop
 outerLoop: for i in 1...15 {
     for j in 1...15 {
@@ -71,3 +71,22 @@ outerLoop: for i in 1...15 {
 }
 
 
+//Skipping items
+for h in 1...10 {
+    if h % 2 == 1 {
+        continue
+    }
+    print(h)
+}
+
+// Infinite loops
+var counter1 = 0
+
+while true {
+    print(" ")
+    counter1 += 1
+    
+    if counter1 == 273{
+        break
+    }
+}
