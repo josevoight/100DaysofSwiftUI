@@ -79,4 +79,30 @@ func square3(numbers: Int...) {
 square3(numbers: 1, 2, 3, 4, 5)
 
 
+// Writing throwing fuctions
+enum PasswordError: Error {
+    case obvious
+}
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+    
+    return true
+}
 
+//Running throwing functions
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
+
+//inout parameters
+func doubleInPlace(number: inout Int) {
+    number *= 2
+}
+
+var myNum = 10
+doubleInPlace(number: &myNum)
