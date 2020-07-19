@@ -45,3 +45,38 @@ func sayHello(to name: String) {
 }
 
 sayHello(to: "Taylor ")
+
+
+//Omitting parameter labels
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Taylor")
+
+//Default Parameters
+func greet1(_ person1: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello, \(person1)!")
+    } else {
+        print("Oh no, it's \(person1) again...")
+    }
+    
+}
+
+greet1("Taylor")
+greet1("Taylor", nicely: false)
+
+//Variadic fuctions
+print("Haters", "gonna", "hate")
+
+func square3(numbers: Int...) {
+    for number3 in numbers {
+        print("\(number3) squared is \(number3 * number3)")
+    }
+}
+
+square3(numbers: 1, 2, 3, 4, 5)
+
+
+
