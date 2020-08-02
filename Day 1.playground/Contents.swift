@@ -21,3 +21,9 @@ This goes \
 over multiple \
 lines
 """
+
+// Double and booleans
+var pi = 3.141
+
+// bool holds true or false
+var awesome = true 
