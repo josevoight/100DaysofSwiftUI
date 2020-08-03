@@ -37,4 +37,9 @@ var results = "The test results are here: \(str4)"
 //Constants ---> never change using let
 let taylor = "swift"
 
-
+// type annotations
+let str5 = "Hello, playground"
+let album: String = "Reputation"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
