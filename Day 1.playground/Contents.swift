@@ -27,3 +27,14 @@ var pi = 3.141
 
 // bool holds true or false
 var awesome = true 
+
+
+//string interpolation
+var score = 89
+var str4 = "Your score was \(score)"
+var results = "The test results are here: \(str4)"
+
+//Constants ---> never change using let
+let taylor = "swift"
+
+
