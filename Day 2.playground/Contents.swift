@@ -54,3 +54,21 @@ favoriteIceCream["Paul"]
 ///nil
 favoriteIceCream["Charlotte", default: "Unknown"]
 
+//creating empty collections
+var teams = [String: String]()
+
+//add entries
+teams["Paul"] = "Red"
+
+// empty array to store integers
+var results = [Int]()
+
+// empty set
+var words = Set<String>()
+var numbers = Set<Int>()
+
+//
+var scores = Dictionary<String, Int>()
+var results1 = Array<Int>()
+
+
