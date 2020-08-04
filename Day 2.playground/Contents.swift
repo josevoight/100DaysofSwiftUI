@@ -22,3 +22,13 @@ name.first
 
 
 /// Arrays vs Sets vs Tuple
+
+//: tuples
+let address = (house: 555, street: "Taylor Swift Avenue", city: "Nashville")
+
+//: sets
+let set = Set(["aardvark", "astrounaut", "alwyn"])
+
+//: array
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
+
