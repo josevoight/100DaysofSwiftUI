@@ -32,3 +32,25 @@ let set = Set(["aardvark", "astrounaut", "alwyn"])
 //: array
 let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 
+
+//Dictionaries
+let heights = [
+    "Taylor Swift": 1.78,
+    "Selena Gomez": 1.65
+]
+
+heights["Taylor Swift"]
+
+
+///Dictionary default values
+let favoriteIceCream = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanilla"
+]
+
+// read paul ice cream
+favoriteIceCream["Paul"]
+
+///nil
+favoriteIceCream["Charlotte", default: "Unknown"]
+
