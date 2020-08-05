@@ -72,3 +72,18 @@ var scores = Dictionary<String, Int>()
 var results1 = Array<Int>()
 
 
+// Enumerations or enums for short
+let result3 = "failure"
+
+/// uses different naming
+let result4 = "failed"
+let results5 = "fail"
+
+// using enums to simplify
+enum Result {
+    case sucess
+    case failure
+}
+
+let result6 = Result.failure
+
