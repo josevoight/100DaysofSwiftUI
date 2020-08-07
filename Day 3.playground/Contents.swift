@@ -36,3 +36,16 @@ score7 -= 5
 //add one string
 var quote = "The rain in Spain falls mainly on the "
 quote += "Spaniards"
+
+//comparison operator
+let firstScore6 = 6
+let secondScore7 = 4
+
+firstScore6 == secondScore7
+firstScore6 != secondScore7
+
+firstScore6 < secondScore7
+firstScore6 >= secondScore7
+
+"Taylor13" <= "Swift13"
+
