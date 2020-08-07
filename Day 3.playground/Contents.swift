@@ -24,7 +24,15 @@ let doubleMeaning = 42 + 42
 let fakers = "Fakers gonna "
 let action = fakers + "fake"
 
-// + can join arrays 
+// + can join arrays
 let firstHalf = ["John", "Paul"]
 let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
+
+//compound assignment operator
+var score7 = 95
+score7 -= 5
+
+//add one string
+var quote = "The rain in Spain falls mainly on the "
+quote += "Spaniards"
