@@ -49,3 +49,10 @@ firstScore6 >= secondScore7
 
 "Taylor13" <= "Swift13"
 
+// Conditions
+let firstCard = 11
+let secondCard = 10
+
+if firstCard + secondCard == 21 {
+    print("Blackjack!")
+}
