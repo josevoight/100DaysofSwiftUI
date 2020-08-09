@@ -100,7 +100,7 @@ if firstCard2 == secondCard2 {
 //switch statement
 let weather = "sunny"
 
-//using the switch to see which string to output 
+//using the switch to see which string to output
 switch weather {
 case "rain":
     print("Bring an umbrella")
@@ -110,4 +110,29 @@ case "sunny":
     print("Wear sunscreen")
 default:
     print("Enjoy your day!")
+}
+
+//fallthrough
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+    fallthrough
+default:
+    print("Enjoy your day!")
+}
+
+//range operator
+let score3 = 85
+
+switch score3 {
+case 0..<50:
+    print("You failed badly.")
+case 50..<85:
+    print("You did OK.")
+default:
+    print("You did great!")
 }
