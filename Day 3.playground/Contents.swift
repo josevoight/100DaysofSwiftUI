@@ -96,3 +96,18 @@ if firstCard2 == secondCard2 {
 } else {
     print("Cards are different")
 }
+
+//switch statement
+let weather = "sunny"
+
+//using the switch to see which string to output 
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+default:
+    print("Enjoy your day!")
+}
