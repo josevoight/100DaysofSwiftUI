@@ -11,3 +11,8 @@ for number in count {
 }
 
 // for loops
+let albums = ["Red", "1989", "Reputation", "Lover", "folklore"]
+
+for album in albums {
+    print("\(album) is on Apple Music")
+}
