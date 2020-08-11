@@ -34,4 +34,12 @@ while number3 <= 20 {
 
 print("Ready or not, here I come")
 
+//repeat loops
+var number4 = 1
 
+repeat {
+    print(number4)
+    number4 += 1
+} while number4 <= 20
+
+print("Ready or not, Here I come!")
