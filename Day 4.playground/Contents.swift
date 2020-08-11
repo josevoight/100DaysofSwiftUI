@@ -23,3 +23,15 @@ print("Players gonna ")
 for _ in 1...5 {
     print("play")
 }
+
+// while loops
+var number3 = 1
+
+while number3 <= 20 {
+    print(number3)
+    number3 += 1
+}
+
+print("Ready or not, here I come")
+
+
