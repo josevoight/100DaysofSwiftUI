@@ -43,3 +43,26 @@ repeat {
 } while number4 <= 20
 
 print("Ready or not, Here I come!")
+
+// exiting loops
+var countDown1 = 10
+
+while countDown1 >= 0 {
+    print(countDown1)
+    countDown1 -= 1
+}
+
+print("Blast off!")
+
+
+// another type
+while countDown1 >= 0 {
+    print(countDown1)
+    
+    if countDown1 == 4 {
+        print("I am bored. Let's go to the moon now!")
+        break
+    }
+    
+    countDown1 -= 1
+}
