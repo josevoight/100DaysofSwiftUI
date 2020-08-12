@@ -104,3 +104,15 @@ for i in 1...10 {
     
     print(i)
 }
+
+//infinite loops
+var counter6 = 0
+
+while true {
+    print(" ")
+    counter6 += 1
+    
+    if counter6 == 273 {
+        break
+    }
+}
