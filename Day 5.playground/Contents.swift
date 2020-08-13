@@ -15,3 +15,11 @@ MyApp will resize them all into thumbnails
 }
 // run the functon
 printHelp()
+
+//accepting parameters
+func square(number: Int) {
+    print(number * number)
+}
+
+// number
+square(number: 9)
