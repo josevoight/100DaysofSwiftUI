@@ -32,3 +32,17 @@ func square(number3: Int) -> Int {
 // grab the returning value
 let result = square(number3: 10)
 print(result)
+
+//parameter labels
+func sayHello(to name: String) {
+    print("Hello, \(name)!")
+}
+
+sayHello(to: "Taylor Swift")
+
+//omitting parameter labels
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Taylor")
