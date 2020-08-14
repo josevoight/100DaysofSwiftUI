@@ -23,3 +23,12 @@ func square(number: Int) {
 
 // number
 square(number: 9)
+
+// returning values
+func square(number3: Int) -> Int {
+    return number3 * number3
+}
+
+// grab the returning value
+let result = square(number3: 10)
+print(result)
