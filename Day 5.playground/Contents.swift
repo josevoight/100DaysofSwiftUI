@@ -99,3 +99,11 @@ func doubleInPlace(number4: inout Int) {
 
 var myNum = 10
 doubleInPlace(number4: &myNum)
+
+// this is the end of functions
+// learn how to code should be the first thing you should learn how to do
+// how can you do it
+// what is my main goal
+// and keep going we got this
+
+
