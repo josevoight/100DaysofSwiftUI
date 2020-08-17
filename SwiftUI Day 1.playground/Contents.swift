@@ -19,8 +19,17 @@ lines
 var pi = 3.141
 var awesome = true
 
-//  String Interpolation 
+//  String Interpolation
 var score = 85
 var str2 = "Your score was \(score)"
 
 var results = "The test results are here \(str2)"
+
+//constants = never change
+let taylor = "swift"
+
+// type annotations
+let album: String = "folklore"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
