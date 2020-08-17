@@ -13,3 +13,14 @@ This goes \
 over multiple \
 lines
 """
+
+// Double and booleans
+//: double: holds fractional values
+var pi = 3.141
+var awesome = true
+
+//  String Interpolation 
+var score = 85
+var str2 = "Your score was \(score)"
+
+var results = "The test results are here \(str2)"
