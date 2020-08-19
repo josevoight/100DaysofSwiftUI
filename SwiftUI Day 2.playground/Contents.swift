@@ -4,7 +4,7 @@ import UIKit
 let john = "John Lennon"
 let paul = "Paul McCartney"
 let george = "George Harrison"
-let ringo = "Ringo Starr"
+let ringo = "Ringo Starr" 
 
 let beatles = [john, paul, george, ringo]
 beatles[1]
@@ -20,3 +20,8 @@ var name = (first: "Taylor", last: "Swift")
 name.0
 name.first
 name.last
+
+// arrays vs sets
+let address = (house: 555, street: "Taylor Swift Avenue", city: "Nashville")
+
+let set = Set(["aardvark", "astronaut", "azalea"])
